@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.66" fx:controller="app.MainController">
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Co chcesz zrobić?" />
+            <Label />
+            <HBox>
+               <children>
+                  <Button mnemonicParsing="false" text="Dodaj nową pizze" />
+                  <Button mnemonicParsing="false" text="Zobacz ulubione pizze" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
